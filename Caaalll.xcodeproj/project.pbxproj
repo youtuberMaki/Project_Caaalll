@@ -139,8 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				2CC3A2CB1F0F4004006A4FFF /* UNKO_Picker */,
-				2CC3A2E01F0F4004006A4FFF /* UNKO_PickerTests */,
-				2CC3A2EB1F0F4004006A4FFF /* UNKO_PickerUITests */,
+				2CC3A2E01F0F4004006A4FFF /* CaaalllTests */,
+				2CC3A2EB1F0F4004006A4FFF /* CaaalllUITests */,
 				2CC3A2CA1F0F4004006A4FFF /* Products */,
 				2C69876F1F72D00800EBE8ED /* Frameworks */,
 			);
@@ -194,22 +194,22 @@
 			path = UNKO_Picker;
 			sourceTree = "<group>";
 		};
-		2CC3A2E01F0F4004006A4FFF /* UNKO_PickerTests */ = {
+		2CC3A2E01F0F4004006A4FFF /* CaaalllTests */ = {
 			isa = PBXGroup;
 			children = (
 				2CC3A2E11F0F4004006A4FFF /* UNKO_PickerTests.swift */,
 				2CC3A2E31F0F4004006A4FFF /* Info.plist */,
 			);
-			path = UNKO_PickerTests;
+			path = CaaalllTests;
 			sourceTree = "<group>";
 		};
-		2CC3A2EB1F0F4004006A4FFF /* UNKO_PickerUITests */ = {
+		2CC3A2EB1F0F4004006A4FFF /* CaaalllUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2CC3A2EC1F0F4004006A4FFF /* UNKO_PickerUITests.swift */,
 				2CC3A2EE1F0F4004006A4FFF /* Info.plist */,
 			);
-			path = UNKO_PickerUITests;
+			path = CaaalllUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -568,7 +568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sample.UNKO-PickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caaalll.app/Caaalll";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caaalll.temp_caseinsensitive_rename.app/Caaalll.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -583,7 +583,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "sample.UNKO-PickerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caaalll.app/Caaalll";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caaalll.temp_caseinsensitive_rename.app/Caaalll.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
