@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CC3A2C81F0F4003006A4FFF"
-               BuildableName = "UNKO_Picker.app"
-               BlueprintName = "UNKO_Picker"
-               ReferencedContainer = "container:UNKO_Picker.xcodeproj">
+               BuildableName = "Caaalll.app"
+               BlueprintName = "Caaalll"
+               ReferencedContainer = "container:Caaalll.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2CC3A2DC1F0F4004006A4FFF"
-               BuildableName = "UNKO_PickerTests.xctest"
-               BlueprintName = "UNKO_PickerTests"
-               ReferencedContainer = "container:UNKO_Picker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2CC3A2E71F0F4004006A4FFF"
-               BuildableName = "UNKO_PickerUITests.xctest"
-               BlueprintName = "UNKO_PickerUITests"
-               ReferencedContainer = "container:UNKO_Picker.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC3A2C81F0F4003006A4FFF"
-            BuildableName = "UNKO_Picker.app"
-            BlueprintName = "UNKO_Picker"
-            ReferencedContainer = "container:UNKO_Picker.xcodeproj">
+            BuildableName = "Caaalll.app"
+            BlueprintName = "Caaalll"
+            ReferencedContainer = "container:Caaalll.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC3A2C81F0F4003006A4FFF"
-            BuildableName = "UNKO_Picker.app"
-            BlueprintName = "UNKO_Picker"
-            ReferencedContainer = "container:UNKO_Picker.xcodeproj">
+            BuildableName = "Caaalll.app"
+            BlueprintName = "Caaalll"
+            ReferencedContainer = "container:Caaalll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2CC3A2C81F0F4003006A4FFF"
-            BuildableName = "UNKO_Picker.app"
-            BlueprintName = "UNKO_Picker"
-            ReferencedContainer = "container:UNKO_Picker.xcodeproj">
+            BuildableName = "Caaalll.app"
+            BlueprintName = "Caaalll"
+            ReferencedContainer = "container:Caaalll.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
