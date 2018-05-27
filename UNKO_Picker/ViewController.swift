@@ -29,7 +29,7 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
     @IBOutlet weak var pick: UIButton!
     @IBOutlet weak var selectVoice: UIButton!
   
-    //@IBOutlet weak var down: UIButton!
+  //@IBOutlet weak var down: UIButton!
     var player : MPMusicPlayerController?
     var MooPlayer: AVAudioPlayer!
     var RooPlayer: AVAudioPlayer!
@@ -38,6 +38,25 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
     var MhaiPlayer: AVAudioPlayer!
     var MfufuPlayer: AVAudioPlayer!
     var MfwfwPlayer: AVAudioPlayer!
+  
+  var AbeFufuPlayer: AVAudioPlayer!
+  var AbeFwfwPlayer: AVAudioPlayer!
+  var AbeHiPlayer: AVAudioPlayer!
+  var AbeHaiPlayer: AVAudioPlayer!
+  var AbeOhPlayer: AVAudioPlayer!
+  
+  var FukuchiFufuPlayer: AVAudioPlayer!
+  var FukuchiFwfwPlayer: AVAudioPlayer!
+  var FukuchiHiPlayer: AVAudioPlayer!
+  var FukuchiHaiPlayer: AVAudioPlayer!
+  var FukuchiOhPlayer: AVAudioPlayer!
+  
+  var HikawaFufuPlayer: AVAudioPlayer!
+  var HikawaFwfwPlayer: AVAudioPlayer!
+  var HikawaHiPlayer: AVAudioPlayer!
+  var HikawaHaiPlayer: AVAudioPlayer!
+  var HikawaOhPlayer: AVAudioPlayer!
+  
     var oo = true
     var timer: Timer!
     var musicTime = [String]()
@@ -92,6 +111,40 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
             MfufuPlayer = try AVAudioPlayer(contentsOf: MfufuPath!)
             let MfwfwPath = Bundle.main.url(forResource: "Mfwfw", withExtension: "caf")
             MfwfwPlayer = try AVAudioPlayer(contentsOf: MfwfwPath!)
+          
+          let AbeFufuPath = Bundle.main.url(forResource: "abe_fufu", withExtension: "caf")
+          AbeFufuPlayer = try AVAudioPlayer(contentsOf: AbeFufuPath!)
+          let AbeFwfwPath = Bundle.main.url(forResource: "abe_fwfw", withExtension: "caf")
+          AbeFwfwPlayer = try AVAudioPlayer(contentsOf: AbeFwfwPath!)
+          let AbeHiPath = Bundle.main.url(forResource: "abe_hi", withExtension: "caf")
+          AbeHiPlayer = try AVAudioPlayer(contentsOf: AbeHiPath!)
+          let AbeHaiPath = Bundle.main.url(forResource: "abe_hai", withExtension: "caf")
+          AbeHaiPlayer = try AVAudioPlayer(contentsOf: AbeHaiPath!)
+          let AbeOhPath = Bundle.main.url(forResource: "abe_oh", withExtension: "caf")
+          AbeOhPlayer = try AVAudioPlayer(contentsOf: AbeOhPath!)
+          
+          let FukuchiFufuPath = Bundle.main.url(forResource: "fukuchi_fufu", withExtension: "caf")
+          FukuchiFufuPlayer = try AVAudioPlayer(contentsOf: FukuchiFufuPath!)
+          let FukuchiFwfwPath = Bundle.main.url(forResource: "fukuchi_fwfw", withExtension: "caf")
+          FukuchiFwfwPlayer = try AVAudioPlayer(contentsOf: FukuchiFwfwPath!)
+          let FukuchiHiPath = Bundle.main.url(forResource: "fukuchi_hi", withExtension: "caf")
+          FukuchiHiPlayer = try AVAudioPlayer(contentsOf: FukuchiHiPath!)
+          let FukuchiHaiPath = Bundle.main.url(forResource: "fukuchi_hai", withExtension: "caf")
+          FukuchiHaiPlayer = try AVAudioPlayer(contentsOf: FukuchiHaiPath!)
+          let FukuchiOhPath = Bundle.main.url(forResource: "fukuchi_oh", withExtension: "caf")
+          FukuchiOhPlayer = try AVAudioPlayer(contentsOf: FukuchiOhPath!)
+          
+          let HikawaFufuPath = Bundle.main.url(forResource: "hikawa_fufu", withExtension: "caf")
+          HikawaFufuPlayer = try AVAudioPlayer(contentsOf: HikawaFufuPath!)
+          let HikawaFwfwPath = Bundle.main.url(forResource: "hikawa_fwfw", withExtension: "caf")
+          HikawaFwfwPlayer = try AVAudioPlayer(contentsOf: HikawaFwfwPath!)
+          let HikawaHiPath = Bundle.main.url(forResource: "hikawa_hi", withExtension: "caf")
+          HikawaHiPlayer = try AVAudioPlayer(contentsOf: HikawaHiPath!)
+          let HikawaHaiPath = Bundle.main.url(forResource: "hikawa_hai", withExtension: "caf")
+          HikawaHaiPlayer = try AVAudioPlayer(contentsOf: HikawaHaiPath!)
+          let HikawaOhPath = Bundle.main.url(forResource: "hikawa_oh", withExtension: "caf")
+          HikawaOhPlayer = try AVAudioPlayer(contentsOf: HikawaOhPath!)
+          
         } catch {
             print("error")
         }
@@ -340,6 +393,44 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
                 self.RheyPlayer.stop()
                 RheyPlayer.currentTime = 0
                 self.RheyPlayer.play()
+              }
+            }
+          }else if(voiceNum == 2){
+            if(tang>tan(pi+pi/8-pi/16) && tang<tan(pi+pi/8+pi/16) && tang_z<0){
+              if(self.oo){
+                self.MooPlayer.stop()
+                self.RooPlayer.stop()
+                self.AbeOhPlayer.stop()
+                self.FukuchiOhPlayer.stop()
+                self.HikawaOhPlayer.stop()
+                MooPlayer.currentTime = 0
+                RooPlayer.currentTime = 0
+                AbeOhPlayer.currentTime = 0
+                FukuchiOhPlayer.currentTime = 0
+                HikawaOhPlayer.currentTime = 0
+                self.MooPlayer.play()
+                self.RooPlayer.play()
+                self.AbeOhPlayer.play()
+                self.FukuchiOhPlayer.play()
+                self.HikawaOhPlayer.play()
+              }
+            }else if(tang>tan(pi+(pi/8+pi/16*3)-pi/16) && tang<tan(pi+(pi/8+pi/16*3)+pi/16) && tang_z<0){
+              if(self.oo){
+                self.MheyPlayer.stop()
+                self.RheyPlayer.stop()
+                self.AbeHiPlayer.stop()
+                self.FukuchiHiPlayer.stop()
+                self.HikawaHiPlayer.stop()
+                MheyPlayer.currentTime = 0
+                RheyPlayer.currentTime = 0
+                AbeHiPlayer.currentTime = 0
+                FukuchiHiPlayer.currentTime = 0
+                HikawaHiPlayer.currentTime = 0
+                self.MheyPlayer.play()
+                self.RheyPlayer.play()
+                self.AbeHiPlayer.play()
+                self.FukuchiHiPlayer.play()
+                self.HikawaHiPlayer.play()
               }
             }
           }

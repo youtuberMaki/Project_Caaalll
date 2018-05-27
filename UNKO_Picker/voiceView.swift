@@ -11,7 +11,7 @@ import UIKit
 class voiceView: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
   @IBOutlet weak var voiceTable: UITableView!
-  var voiceList = ["牧","レミ"]
+  var voiceList = ["牧","レミ","みんな"]
   var selectNum = 0
   
 

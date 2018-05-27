@@ -40,6 +40,61 @@
 		2CC3A2D71F0F4004006A4FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC3A2D51F0F4004006A4FFF /* LaunchScreen.storyboard */; };
 		2CC3A2E21F0F4004006A4FFF /* UNKO_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3A2E11F0F4004006A4FFF /* UNKO_PickerTests.swift */; };
 		2CC3A2ED1F0F4004006A4FFF /* UNKO_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC3A2EC1F0F4004006A4FFF /* UNKO_PickerUITests.swift */; };
+		2CE10A3D20B95ED200D446D3 /* abe_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1420B9521200D446D3 /* abe_fufu.caf */; };
+		2CE10A3E20B95ED200D446D3 /* abe_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2E20B9521800D446D3 /* abe_fwfw.caf */; };
+		2CE10A3F20B95ED200D446D3 /* abe_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1720B9521300D446D3 /* abe_hai.caf */; };
+		2CE10A4020B95ED200D446D3 /* abe_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3520B9521900D446D3 /* abe_hi.caf */; };
+		2CE10A4120B95ED200D446D3 /* abe_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3620B9521A00D446D3 /* abe_oh.caf */; };
+		2CE10A4220B95ED200D446D3 /* fukuchi_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2520B9521500D446D3 /* fukuchi_fufu.caf */; };
+		2CE10A4320B95ED200D446D3 /* fukuchi_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2F20B9521800D446D3 /* fukuchi_fwfw.caf */; };
+		2CE10A4420B95ED200D446D3 /* fukuchi_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1620B9521200D446D3 /* fukuchi_hai.caf */; };
+		2CE10A4520B95ED200D446D3 /* fukuchi_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1F20B9521400D446D3 /* fukuchi_hi.caf */; };
+		2CE10A4620B95ED200D446D3 /* fukuchi_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1B20B9521300D446D3 /* fukuchi_oh.caf */; };
+		2CE10A4720B95ED200D446D3 /* hikawa_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2220B9521500D446D3 /* hikawa_fufu.caf */; };
+		2CE10A4820B95ED200D446D3 /* hikawa_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3420B9521900D446D3 /* hikawa_fwfw.caf */; };
+		2CE10A4920B95ED200D446D3 /* hikawa_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0C20B9521000D446D3 /* hikawa_hai.caf */; };
+		2CE10A4A20B95ED200D446D3 /* hikawa_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3320B9521900D446D3 /* hikawa_hi.caf */; };
+		2CE10A4B20B95ED200D446D3 /* hikawa_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1320B9521200D446D3 /* hikawa_oh.caf */; };
+		2CE10A4C20B95ED200D446D3 /* kaminisi_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1120B9521100D446D3 /* kaminisi_fufu.caf */; };
+		2CE10A4D20B95ED200D446D3 /* kaminisi_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2820B9521600D446D3 /* kaminisi_fwfw.caf */; };
+		2CE10A4E20B95ED200D446D3 /* kaminisi_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3820B9521A00D446D3 /* kaminisi_hai.caf */; };
+		2CE10A4F20B95ED200D446D3 /* kaminisi_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1520B9521200D446D3 /* kaminisi_hi.caf */; };
+		2CE10A5020B95ED200D446D3 /* kaminisi_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2620B9521500D446D3 /* kaminisi_oh.caf */; };
+		2CE10A5120B95ED200D446D3 /* kazu_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2020B9521400D446D3 /* kazu_fufu.caf */; };
+		2CE10A5220B95ED200D446D3 /* kazu_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0720B9520F00D446D3 /* kazu_fwfw.caf */; };
+		2CE10A5320B95ED200D446D3 /* kazu_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1220B9521100D446D3 /* kazu_hai.caf */; };
+		2CE10A5420B95ED200D446D3 /* kazu_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3720B9521A00D446D3 /* kazu_hi.caf */; };
+		2CE10A5520B95ED200D446D3 /* kazu_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0B20B9521000D446D3 /* kazu_oh.caf */; };
+		2CE10A5620B95ED200D446D3 /* nino_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3C20B9521B00D446D3 /* nino_fufu.caf */; };
+		2CE10A5720B95ED200D446D3 /* nino_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2120B9521400D446D3 /* nino_fwfw.caf */; };
+		2CE10A5820B95ED200D446D3 /* nino_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2320B9521500D446D3 /* nino_hai.caf */; };
+		2CE10A5920B95ED200D446D3 /* nino_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0A20B9521000D446D3 /* nino_hi.caf */; };
+		2CE10A5A20B95ED200D446D3 /* nino_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0820B9521000D446D3 /* nino_oh.caf */; };
+		2CE10A5B20B95ED200D446D3 /* satoken_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0D20B9521100D446D3 /* satoken_fufu.caf */; };
+		2CE10A5C20B95ED200D446D3 /* satoken_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0E20B9521100D446D3 /* satoken_fwfw.caf */; };
+		2CE10A5D20B95ED200D446D3 /* satoken_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1020B9521100D446D3 /* satoken_hai.caf */; };
+		2CE10A5E20B95ED200D446D3 /* satoken_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1E20B9521400D446D3 /* satoken_hi.caf */; };
+		2CE10A5F20B95ED200D446D3 /* satoken_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1A20B9521300D446D3 /* satoken_oh.caf */; };
+		2CE10A6020B95ED200D446D3 /* shunki_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0620B9520F00D446D3 /* shunki_fufu.caf */; };
+		2CE10A6120B95ED200D446D3 /* shunki_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3A20B9521A00D446D3 /* shunki_fwfw.caf */; };
+		2CE10A6220B95ED200D446D3 /* shunki_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3120B9521900D446D3 /* shunki_hai.caf */; };
+		2CE10A6320B95ED200D446D3 /* shunki_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1820B9521300D446D3 /* shunki_hi.caf */; };
+		2CE10A6420B95ED200D446D3 /* shunki_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1C20B9521300D446D3 /* shunki_oh.caf */; };
+		2CE10A6520B95ED200D446D3 /* tamu_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2D20B9521800D446D3 /* tamu_fufu.caf */; };
+		2CE10A6620B95ED200D446D3 /* tamu_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2C20B9521700D446D3 /* tamu_fwfw.caf */; };
+		2CE10A6720B95ED200D446D3 /* tamu_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2920B9521600D446D3 /* tamu_hai.caf */; };
+		2CE10A6820B95ED200D446D3 /* tamu_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2720B9521500D446D3 /* tamu_hi.caf */; };
+		2CE10A6920B95ED200D446D3 /* tamu_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1920B9521300D446D3 /* tamu_oh.caf */; };
+		2CE10A6A20B95ED200D446D3 /* yamanotami_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2B20B9521700D446D3 /* yamanotami_fufu.caf */; };
+		2CE10A6B20B95ED200D446D3 /* yamanotami_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2420B9521500D446D3 /* yamanotami_fwfw.caf */; };
+		2CE10A6C20B95ED200D446D3 /* yamanotami_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0F20B9521100D446D3 /* yamanotami_hai.caf */; };
+		2CE10A6D20B95ED200D446D3 /* yamanotami_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A2A20B9521700D446D3 /* yamanotami_hi.caf */; };
+		2CE10A6E20B95ED200D446D3 /* yamanotami_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3B20B9521A00D446D3 /* yamanotami_oh.caf */; };
+		2CE10A6F20B95ED200D446D3 /* yoshioka_fufu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A1D20B9521400D446D3 /* yoshioka_fufu.caf */; };
+		2CE10A7020B95ED200D446D3 /* yoshioka_fwfw.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3220B9521900D446D3 /* yoshioka_fwfw.caf */; };
+		2CE10A7120B95ED200D446D3 /* yoshioka_hai.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A0920B9521000D446D3 /* yoshioka_hai.caf */; };
+		2CE10A7220B95ED200D446D3 /* yoshioka_hi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3020B9521800D446D3 /* yoshioka_hi.caf */; };
+		2CE10A7320B95ED200D446D3 /* yoshioka_oh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2CE10A3920B9521A00D446D3 /* yoshioka_oh.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,18 +142,73 @@
 		2CBB0AAF1F8148A8006561DF /* Moo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moo.caf; sourceTree = "<group>"; };
 		2CBB0AB01F8148A8006561DF /* Rhey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rhey.caf; sourceTree = "<group>"; };
 		2CBB0AB11F8148A8006561DF /* Roo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Roo.caf; sourceTree = "<group>"; };
-		2CC3A2C91F0F4004006A4FFF /* Caaalll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caaalll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC3A2CC1F0F4004006A4FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CC3A2CE1F0F4004006A4FFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CC3A2D31F0F4004006A4FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CC3A2D61F0F4004006A4FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CC3A2D81F0F4004006A4FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CC3A2DD1F0F4004006A4FFF /* CaaalllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaaalllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC3A2E11F0F4004006A4FFF /* UNKO_PickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNKO_PickerTests.swift; sourceTree = "<group>"; };
 		2CC3A2E31F0F4004006A4FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CC3A2E81F0F4004006A4FFF /* CaaalllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaaalllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CC3A2EC1F0F4004006A4FFF /* UNKO_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNKO_PickerUITests.swift; sourceTree = "<group>"; };
 		2CC3A2EE1F0F4004006A4FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CE10A0320B9506A00D446D3 /* Caaalll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caaalll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE10A0420B9506A00D446D3 /* CaaalllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaaalllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE10A0520B9506A00D446D3 /* CaaalllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaaalllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE10A0620B9520F00D446D3 /* shunki_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shunki_fufu.caf; sourceTree = "<group>"; };
+		2CE10A0720B9520F00D446D3 /* kazu_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kazu_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A0820B9521000D446D3 /* nino_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nino_oh.caf; sourceTree = "<group>"; };
+		2CE10A0920B9521000D446D3 /* yoshioka_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoshioka_hai.caf; sourceTree = "<group>"; };
+		2CE10A0A20B9521000D446D3 /* nino_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nino_hi.caf; sourceTree = "<group>"; };
+		2CE10A0B20B9521000D446D3 /* kazu_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kazu_oh.caf; sourceTree = "<group>"; };
+		2CE10A0C20B9521000D446D3 /* hikawa_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hikawa_hai.caf; sourceTree = "<group>"; };
+		2CE10A0D20B9521100D446D3 /* satoken_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = satoken_fufu.caf; sourceTree = "<group>"; };
+		2CE10A0E20B9521100D446D3 /* satoken_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = satoken_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A0F20B9521100D446D3 /* yamanotami_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yamanotami_hai.caf; sourceTree = "<group>"; };
+		2CE10A1020B9521100D446D3 /* satoken_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = satoken_hai.caf; sourceTree = "<group>"; };
+		2CE10A1120B9521100D446D3 /* kaminisi_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaminisi_fufu.caf; sourceTree = "<group>"; };
+		2CE10A1220B9521100D446D3 /* kazu_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kazu_hai.caf; sourceTree = "<group>"; };
+		2CE10A1320B9521200D446D3 /* hikawa_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hikawa_oh.caf; sourceTree = "<group>"; };
+		2CE10A1420B9521200D446D3 /* abe_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abe_fufu.caf; sourceTree = "<group>"; };
+		2CE10A1520B9521200D446D3 /* kaminisi_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaminisi_hi.caf; sourceTree = "<group>"; };
+		2CE10A1620B9521200D446D3 /* fukuchi_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fukuchi_hai.caf; sourceTree = "<group>"; };
+		2CE10A1720B9521300D446D3 /* abe_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abe_hai.caf; sourceTree = "<group>"; };
+		2CE10A1820B9521300D446D3 /* shunki_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shunki_hi.caf; sourceTree = "<group>"; };
+		2CE10A1920B9521300D446D3 /* tamu_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamu_oh.caf; sourceTree = "<group>"; };
+		2CE10A1A20B9521300D446D3 /* satoken_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = satoken_oh.caf; sourceTree = "<group>"; };
+		2CE10A1B20B9521300D446D3 /* fukuchi_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fukuchi_oh.caf; sourceTree = "<group>"; };
+		2CE10A1C20B9521300D446D3 /* shunki_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shunki_oh.caf; sourceTree = "<group>"; };
+		2CE10A1D20B9521400D446D3 /* yoshioka_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoshioka_fufu.caf; sourceTree = "<group>"; };
+		2CE10A1E20B9521400D446D3 /* satoken_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = satoken_hi.caf; sourceTree = "<group>"; };
+		2CE10A1F20B9521400D446D3 /* fukuchi_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fukuchi_hi.caf; sourceTree = "<group>"; };
+		2CE10A2020B9521400D446D3 /* kazu_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kazu_fufu.caf; sourceTree = "<group>"; };
+		2CE10A2120B9521400D446D3 /* nino_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nino_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A2220B9521500D446D3 /* hikawa_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hikawa_fufu.caf; sourceTree = "<group>"; };
+		2CE10A2320B9521500D446D3 /* nino_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nino_hai.caf; sourceTree = "<group>"; };
+		2CE10A2420B9521500D446D3 /* yamanotami_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yamanotami_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A2520B9521500D446D3 /* fukuchi_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fukuchi_fufu.caf; sourceTree = "<group>"; };
+		2CE10A2620B9521500D446D3 /* kaminisi_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaminisi_oh.caf; sourceTree = "<group>"; };
+		2CE10A2720B9521500D446D3 /* tamu_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamu_hi.caf; sourceTree = "<group>"; };
+		2CE10A2820B9521600D446D3 /* kaminisi_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaminisi_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A2920B9521600D446D3 /* tamu_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamu_hai.caf; sourceTree = "<group>"; };
+		2CE10A2A20B9521700D446D3 /* yamanotami_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yamanotami_hi.caf; sourceTree = "<group>"; };
+		2CE10A2B20B9521700D446D3 /* yamanotami_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yamanotami_fufu.caf; sourceTree = "<group>"; };
+		2CE10A2C20B9521700D446D3 /* tamu_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamu_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A2D20B9521800D446D3 /* tamu_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tamu_fufu.caf; sourceTree = "<group>"; };
+		2CE10A2E20B9521800D446D3 /* abe_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abe_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A2F20B9521800D446D3 /* fukuchi_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fukuchi_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A3020B9521800D446D3 /* yoshioka_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoshioka_hi.caf; sourceTree = "<group>"; };
+		2CE10A3120B9521900D446D3 /* shunki_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shunki_hai.caf; sourceTree = "<group>"; };
+		2CE10A3220B9521900D446D3 /* yoshioka_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoshioka_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A3320B9521900D446D3 /* hikawa_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hikawa_hi.caf; sourceTree = "<group>"; };
+		2CE10A3420B9521900D446D3 /* hikawa_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hikawa_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A3520B9521900D446D3 /* abe_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abe_hi.caf; sourceTree = "<group>"; };
+		2CE10A3620B9521A00D446D3 /* abe_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = abe_oh.caf; sourceTree = "<group>"; };
+		2CE10A3720B9521A00D446D3 /* kazu_hi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kazu_hi.caf; sourceTree = "<group>"; };
+		2CE10A3820B9521A00D446D3 /* kaminisi_hai.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kaminisi_hai.caf; sourceTree = "<group>"; };
+		2CE10A3920B9521A00D446D3 /* yoshioka_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoshioka_oh.caf; sourceTree = "<group>"; };
+		2CE10A3A20B9521A00D446D3 /* shunki_fwfw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = shunki_fwfw.caf; sourceTree = "<group>"; };
+		2CE10A3B20B9521A00D446D3 /* yamanotami_oh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yamanotami_oh.caf; sourceTree = "<group>"; };
+		2CE10A3C20B9521B00D446D3 /* nino_fufu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nino_fufu.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,19 +251,11 @@
 				2CC3A2CB1F0F4004006A4FFF /* UNKO_Picker */,
 				2CC3A2E01F0F4004006A4FFF /* CaaalllTests */,
 				2CC3A2EB1F0F4004006A4FFF /* CaaalllUITests */,
-				2CC3A2CA1F0F4004006A4FFF /* Products */,
 				2C69876F1F72D00800EBE8ED /* Frameworks */,
+				2CE10A0320B9506A00D446D3 /* Caaalll.app */,
+				2CE10A0420B9506A00D446D3 /* CaaalllTests.xctest */,
+				2CE10A0520B9506A00D446D3 /* CaaalllUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		2CC3A2CA1F0F4004006A4FFF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2CC3A2C91F0F4004006A4FFF /* Caaalll.app */,
-				2CC3A2DD1F0F4004006A4FFF /* CaaalllTests.xctest */,
-				2CC3A2E81F0F4004006A4FFF /* CaaalllUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2CC3A2CB1F0F4004006A4FFF /* UNKO_Picker */ = {
@@ -166,6 +268,61 @@
 				2C66CAF31FAFC15F00BCFC77 /* Mfwfw.caf */,
 				2CBB0AB01F8148A8006561DF /* Rhey.caf */,
 				2CBB0AB11F8148A8006561DF /* Roo.caf */,
+				2CE10A1420B9521200D446D3 /* abe_fufu.caf */,
+				2CE10A2E20B9521800D446D3 /* abe_fwfw.caf */,
+				2CE10A1720B9521300D446D3 /* abe_hai.caf */,
+				2CE10A3520B9521900D446D3 /* abe_hi.caf */,
+				2CE10A3620B9521A00D446D3 /* abe_oh.caf */,
+				2CE10A2520B9521500D446D3 /* fukuchi_fufu.caf */,
+				2CE10A2F20B9521800D446D3 /* fukuchi_fwfw.caf */,
+				2CE10A1620B9521200D446D3 /* fukuchi_hai.caf */,
+				2CE10A1F20B9521400D446D3 /* fukuchi_hi.caf */,
+				2CE10A1B20B9521300D446D3 /* fukuchi_oh.caf */,
+				2CE10A2220B9521500D446D3 /* hikawa_fufu.caf */,
+				2CE10A3420B9521900D446D3 /* hikawa_fwfw.caf */,
+				2CE10A0C20B9521000D446D3 /* hikawa_hai.caf */,
+				2CE10A3320B9521900D446D3 /* hikawa_hi.caf */,
+				2CE10A1320B9521200D446D3 /* hikawa_oh.caf */,
+				2CE10A1120B9521100D446D3 /* kaminisi_fufu.caf */,
+				2CE10A2820B9521600D446D3 /* kaminisi_fwfw.caf */,
+				2CE10A3820B9521A00D446D3 /* kaminisi_hai.caf */,
+				2CE10A1520B9521200D446D3 /* kaminisi_hi.caf */,
+				2CE10A2620B9521500D446D3 /* kaminisi_oh.caf */,
+				2CE10A2020B9521400D446D3 /* kazu_fufu.caf */,
+				2CE10A0720B9520F00D446D3 /* kazu_fwfw.caf */,
+				2CE10A1220B9521100D446D3 /* kazu_hai.caf */,
+				2CE10A3720B9521A00D446D3 /* kazu_hi.caf */,
+				2CE10A0B20B9521000D446D3 /* kazu_oh.caf */,
+				2CE10A3C20B9521B00D446D3 /* nino_fufu.caf */,
+				2CE10A2120B9521400D446D3 /* nino_fwfw.caf */,
+				2CE10A2320B9521500D446D3 /* nino_hai.caf */,
+				2CE10A0A20B9521000D446D3 /* nino_hi.caf */,
+				2CE10A0820B9521000D446D3 /* nino_oh.caf */,
+				2CE10A0D20B9521100D446D3 /* satoken_fufu.caf */,
+				2CE10A0E20B9521100D446D3 /* satoken_fwfw.caf */,
+				2CE10A1020B9521100D446D3 /* satoken_hai.caf */,
+				2CE10A1E20B9521400D446D3 /* satoken_hi.caf */,
+				2CE10A1A20B9521300D446D3 /* satoken_oh.caf */,
+				2CE10A0620B9520F00D446D3 /* shunki_fufu.caf */,
+				2CE10A3A20B9521A00D446D3 /* shunki_fwfw.caf */,
+				2CE10A3120B9521900D446D3 /* shunki_hai.caf */,
+				2CE10A1820B9521300D446D3 /* shunki_hi.caf */,
+				2CE10A1C20B9521300D446D3 /* shunki_oh.caf */,
+				2CE10A2D20B9521800D446D3 /* tamu_fufu.caf */,
+				2CE10A2C20B9521700D446D3 /* tamu_fwfw.caf */,
+				2CE10A2920B9521600D446D3 /* tamu_hai.caf */,
+				2CE10A2720B9521500D446D3 /* tamu_hi.caf */,
+				2CE10A1920B9521300D446D3 /* tamu_oh.caf */,
+				2CE10A2B20B9521700D446D3 /* yamanotami_fufu.caf */,
+				2CE10A2420B9521500D446D3 /* yamanotami_fwfw.caf */,
+				2CE10A0F20B9521100D446D3 /* yamanotami_hai.caf */,
+				2CE10A2A20B9521700D446D3 /* yamanotami_hi.caf */,
+				2CE10A3B20B9521A00D446D3 /* yamanotami_oh.caf */,
+				2CE10A1D20B9521400D446D3 /* yoshioka_fufu.caf */,
+				2CE10A3220B9521900D446D3 /* yoshioka_fwfw.caf */,
+				2CE10A0920B9521000D446D3 /* yoshioka_hai.caf */,
+				2CE10A3020B9521800D446D3 /* yoshioka_hi.caf */,
+				2CE10A3920B9521A00D446D3 /* yoshioka_oh.caf */,
 				2C66CAE51FAF8F7600BCFC77 /* lightOn.001.png */,
 				2C66CAE61FAF8F7600BCFC77 /* lightOn.002.png */,
 				2C66CAE71FAF8F7600BCFC77 /* lightOn.003.png */,
@@ -229,7 +386,7 @@
 			);
 			name = Caaalll;
 			productName = UNKO_Picker;
-			productReference = 2CC3A2C91F0F4004006A4FFF /* Caaalll.app */;
+			productReference = 2CE10A0320B9506A00D446D3 /* Caaalll.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2CC3A2DC1F0F4004006A4FFF /* CaaalllTests */ = {
@@ -247,7 +404,7 @@
 			);
 			name = CaaalllTests;
 			productName = UNKO_PickerTests;
-			productReference = 2CC3A2DD1F0F4004006A4FFF /* CaaalllTests.xctest */;
+			productReference = 2CE10A0420B9506A00D446D3 /* CaaalllTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2CC3A2E71F0F4004006A4FFF /* CaaalllUITests */ = {
@@ -265,7 +422,7 @@
 			);
 			name = CaaalllUITests;
 			productName = UNKO_PickerUITests;
-			productReference = 2CC3A2E81F0F4004006A4FFF /* CaaalllUITests.xctest */;
+			productReference = 2CE10A0520B9506A00D446D3 /* CaaalllUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +463,7 @@
 				Base,
 			);
 			mainGroup = 2CC3A2C01F0F4003006A4FFF;
-			productRefGroup = 2CC3A2CA1F0F4004006A4FFF /* Products */;
+			productRefGroup = 2CC3A2C01F0F4003006A4FFF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -322,6 +479,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CE10A3D20B95ED200D446D3 /* abe_fufu.caf in Resources */,
+				2CE10A3E20B95ED200D446D3 /* abe_fwfw.caf in Resources */,
+				2CE10A3F20B95ED200D446D3 /* abe_hai.caf in Resources */,
+				2CE10A4020B95ED200D446D3 /* abe_hi.caf in Resources */,
+				2CE10A4120B95ED200D446D3 /* abe_oh.caf in Resources */,
+				2CE10A4220B95ED200D446D3 /* fukuchi_fufu.caf in Resources */,
+				2CE10A4320B95ED200D446D3 /* fukuchi_fwfw.caf in Resources */,
+				2CE10A4420B95ED200D446D3 /* fukuchi_hai.caf in Resources */,
+				2CE10A4520B95ED200D446D3 /* fukuchi_hi.caf in Resources */,
+				2CE10A4620B95ED200D446D3 /* fukuchi_oh.caf in Resources */,
+				2CE10A4720B95ED200D446D3 /* hikawa_fufu.caf in Resources */,
+				2CE10A4820B95ED200D446D3 /* hikawa_fwfw.caf in Resources */,
+				2CE10A4920B95ED200D446D3 /* hikawa_hai.caf in Resources */,
+				2CE10A4A20B95ED200D446D3 /* hikawa_hi.caf in Resources */,
+				2CE10A4B20B95ED200D446D3 /* hikawa_oh.caf in Resources */,
+				2CE10A4C20B95ED200D446D3 /* kaminisi_fufu.caf in Resources */,
+				2CE10A4D20B95ED200D446D3 /* kaminisi_fwfw.caf in Resources */,
+				2CE10A4E20B95ED200D446D3 /* kaminisi_hai.caf in Resources */,
+				2CE10A4F20B95ED200D446D3 /* kaminisi_hi.caf in Resources */,
+				2CE10A5020B95ED200D446D3 /* kaminisi_oh.caf in Resources */,
+				2CE10A5120B95ED200D446D3 /* kazu_fufu.caf in Resources */,
+				2CE10A5220B95ED200D446D3 /* kazu_fwfw.caf in Resources */,
+				2CE10A5320B95ED200D446D3 /* kazu_hai.caf in Resources */,
+				2CE10A5420B95ED200D446D3 /* kazu_hi.caf in Resources */,
+				2CE10A5520B95ED200D446D3 /* kazu_oh.caf in Resources */,
+				2CE10A5620B95ED200D446D3 /* nino_fufu.caf in Resources */,
+				2CE10A5720B95ED200D446D3 /* nino_fwfw.caf in Resources */,
+				2CE10A5820B95ED200D446D3 /* nino_hai.caf in Resources */,
+				2CE10A5920B95ED200D446D3 /* nino_hi.caf in Resources */,
+				2CE10A5A20B95ED200D446D3 /* nino_oh.caf in Resources */,
+				2CE10A5B20B95ED200D446D3 /* satoken_fufu.caf in Resources */,
+				2CE10A5C20B95ED200D446D3 /* satoken_fwfw.caf in Resources */,
+				2CE10A5D20B95ED200D446D3 /* satoken_hai.caf in Resources */,
+				2CE10A5E20B95ED200D446D3 /* satoken_hi.caf in Resources */,
+				2CE10A5F20B95ED200D446D3 /* satoken_oh.caf in Resources */,
+				2CE10A6020B95ED200D446D3 /* shunki_fufu.caf in Resources */,
+				2CE10A6120B95ED200D446D3 /* shunki_fwfw.caf in Resources */,
+				2CE10A6220B95ED200D446D3 /* shunki_hai.caf in Resources */,
+				2CE10A6320B95ED200D446D3 /* shunki_hi.caf in Resources */,
+				2CE10A6420B95ED200D446D3 /* shunki_oh.caf in Resources */,
+				2CE10A6520B95ED200D446D3 /* tamu_fufu.caf in Resources */,
+				2CE10A6620B95ED200D446D3 /* tamu_fwfw.caf in Resources */,
+				2CE10A6720B95ED200D446D3 /* tamu_hai.caf in Resources */,
+				2CE10A6820B95ED200D446D3 /* tamu_hi.caf in Resources */,
+				2CE10A6920B95ED200D446D3 /* tamu_oh.caf in Resources */,
+				2CE10A6A20B95ED200D446D3 /* yamanotami_fufu.caf in Resources */,
+				2CE10A6B20B95ED200D446D3 /* yamanotami_fwfw.caf in Resources */,
+				2CE10A6C20B95ED200D446D3 /* yamanotami_hai.caf in Resources */,
+				2CE10A6D20B95ED200D446D3 /* yamanotami_hi.caf in Resources */,
+				2CE10A6E20B95ED200D446D3 /* yamanotami_oh.caf in Resources */,
+				2CE10A6F20B95ED200D446D3 /* yoshioka_fufu.caf in Resources */,
+				2CE10A7020B95ED200D446D3 /* yoshioka_fwfw.caf in Resources */,
+				2CE10A7120B95ED200D446D3 /* yoshioka_hai.caf in Resources */,
+				2CE10A7220B95ED200D446D3 /* yoshioka_hi.caf in Resources */,
+				2CE10A7320B95ED200D446D3 /* yoshioka_oh.caf in Resources */,
 				2C66CAF41FAFC16700BCFC77 /* Mfwfw.caf in Resources */,
 				2C66CAF21FAFBFDA00BCFC77 /* Mfufu.caf in Resources */,
 				2C66CAF01FAFBB4700BCFC77 /* Mhai.caf in Resources */,
