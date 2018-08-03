@@ -246,7 +246,6 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
         
         // ピッカーを閉じ、破棄する
         dismiss(animated: true, completion: nil)
-        
     }
     
     /// 曲情報を表示する
@@ -267,23 +266,19 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
             imageView.image = nil
             imageView.backgroundColor = UIColor.gray
         }
+      
+      pushDown()
+      
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+      
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
             /*if(self.oo){
                 self.MooPlayer.play()
                 self.RooPlayer.play()
             }*/
         }
-        if let _player = player as? MPMusicPlayerController {
-            if ("\(String( format:"%.2f",_player.currentPlaybackTime))" != "nan"
-                && "\(String( format:"%.2f",_player.currentPlaybackTime))" != "0.00" ){
-              musicTime.append("\(String( format:"%.2f",_player.currentPlaybackTime))")
-            }
-        }
-        
     }
     
     
@@ -334,54 +329,53 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
             sayCall(tang: tan, tang_z: zahyo)
         }
     }
-    
-    
+  
+  
     func sayCall(tang: CGFloat, tang_z: CGFloat){
-      
+      musicTime = []
       if let _player = player as? MPMusicPlayerController {
         if ("\(String( format:"%.2f",_player.currentPlaybackTime))" != "nan"
           && "\(String( format:"%.2f",_player.currentPlaybackTime))" != "0.00" ){
           musicTime.append("\(String( format:"%.2f",_player.currentPlaybackTime))")
         }
       }
+      if(callFlag){
         
-        if(callFlag){
-          if(voiceNum == 0){
-            
-            pushJson()
-            
-            if(tang>tan(pi+pi/8-pi/16) && tang<tan(pi+pi/8+pi/16) && tang_z<0){
-              if(self.oo){
-                self.MooPlayer.stop()
-                MooPlayer.currentTime = 0
-                self.MooPlayer.play()
-              }
-            }else if(tang>tan(pi+(pi/8+pi/16*3)-pi/16) && tang<tan(pi+(pi/8+pi/16*3)+pi/16) && tang_z<0){
-              if(self.oo){
-                self.MheyPlayer.stop()
-                MheyPlayer.currentTime = 0
-                self.MheyPlayer.play()
-              }
-            }else if(tang>tan(pi+(pi/8+pi/16*3*2)-pi/16) || tang<tan(pi+(pi/8+pi/16*3*2)+pi/16)){
-              if(self.oo){
-                self.MhaiPlayer.stop()
-                MhaiPlayer.currentTime = 0
-                self.MhaiPlayer.play()
-              }
-            }else if(tang>tan(pi+(pi/8+pi/16*3*3)-pi/16) && tang<tan(pi+(pi/8+pi/16*3*3)+pi/16) && tang_z>0){
-              if(self.oo){
-                self.MfufuPlayer.stop()
-                MfufuPlayer.currentTime = 0
-                self.MfufuPlayer.play()
-              }
-            }else if(tang>tan(pi+(pi/8+pi/16*3*4)-pi/16) && tang<tan(pi+(pi/8+pi/16*3*4)+pi/16) && tang_z>0){
-              if(self.oo){
-                self.MfwfwPlayer.stop()
-                MfwfwPlayer.currentTime = 0
-                self.MfwfwPlayer.play()
-              }
+        pushJson()
+        
+        if(voiceNum == 0){
+          if(tang>tan(pi+pi/8-pi/16) && tang<tan(pi+pi/8+pi/16) && tang_z<0){
+            if(self.oo){
+              self.MooPlayer.stop()
+              MooPlayer.currentTime = 0
+              self.MooPlayer.play()
             }
-          }else if(voiceNum == 1){
+          }else if(tang>tan(pi+(pi/8+pi/16*3)-pi/16) && tang<tan(pi+(pi/8+pi/16*3)+pi/16) && tang_z<0){
+            if(self.oo){
+              self.MheyPlayer.stop()
+              MheyPlayer.currentTime = 0
+              self.MheyPlayer.play()
+            }
+          }else if(tang>tan(pi+(pi/8+pi/16*3*2)-pi/16) || tang<tan(pi+(pi/8+pi/16*3*2)+pi/16)){
+            if(self.oo){
+              self.MhaiPlayer.stop()
+              MhaiPlayer.currentTime = 0
+              self.MhaiPlayer.play()
+            }
+          }else if(tang>tan(pi+(pi/8+pi/16*3*3)-pi/16) && tang<tan(pi+(pi/8+pi/16*3*3)+pi/16) && tang_z>0){
+            if(self.oo){
+              self.MfufuPlayer.stop()
+              MfufuPlayer.currentTime = 0
+              self.MfufuPlayer.play()
+            }
+          }else if(tang>tan(pi+(pi/8+pi/16*3*4)-pi/16) && tang<tan(pi+(pi/8+pi/16*3*4)+pi/16) && tang_z>0){
+            if(self.oo){
+              self.MfwfwPlayer.stop()
+              MfwfwPlayer.currentTime = 0
+              self.MfwfwPlayer.play()
+            }
+          }
+        }else if(voiceNum == 1){
             if(tang>tan(pi+pi/8-pi/16) && tang<tan(pi+pi/8+pi/16) && tang_z<0){
               if(self.oo){
                 self.RooPlayer.stop()
@@ -543,10 +537,9 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
   //Jsonのあれこれをここでやろう
   func pushJson() {
     
+    callDic = [:]
     callDic[mTitle] = musicTime
-    //print(callDic)
-    
-    //print(musicTime)
+    print(callDic)
     
     let urlString = "http://maki.nkmr.io/Caaalll/Caaalll.php"
     let request = NSMutableURLRequest(url: URL(string: urlString)!)
@@ -572,28 +565,27 @@ class ViewController: UIViewController, MPMediaPickerControllerDelegate {
     musicTime = [String]()
   }
   
-  @IBAction func pushDown(_ sender: UIButton) {
+  func pushDown() {
     let postTitle = "title=\(mTitle)"
     var request = URLRequest(url: URL(string: "http://maki.nkmr.io/Caaalll/dlCaaalll.php")!)
     request.httpMethod = "POST"
     request.httpBody = postTitle.data(using: .utf8)
     
     let task = URLSession.shared.dataTask(with: request) { data, response, error in
-      if let data = data, let response = response {
-        print(response)
+      if let data = data, let _ = response {
         do {
           let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
-          print(json)
+          self.dlTiming = json as! [String]
+          print(self.dlTiming.count)
         } catch {
           print("Serialize Error")
+          print(error)
         }
       } else {
         print(error ?? "Error")
       }
     }
     task.resume()
-    
-    //print(dlTiming.count)
   }
   
   override func viewWillAppear(_ animated: Bool) {
